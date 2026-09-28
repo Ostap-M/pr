@@ -5,20 +5,32 @@
   margin: 20px;
 }
 .table td {
+    width: 60px;
+    height: 60px;
+    box-sizing: border-box;
     color: white;
 
 }
 .table td.orange{
     background-color: orange;
     color: white;
+    
 }
 .table td.grey{
     background-color: grey;
     color: white;
 }
+.table td.red{
+    background-color: red;
+    color: white;
+    
+}
 .letter {
   font-size: 24px;           
   text-align: center;          
 }
-
+.text {
+  font-size: 12px;           
+  text-align: center;          
+}
 
