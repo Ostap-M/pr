@@ -12,6 +12,10 @@
     background-color: orange;
     color: white;
 }
+.table td.grey{
+    background-color: grey;
+    color: white;
+}
 .letter {
   font-size: 24px;           
   text-align: center;          
