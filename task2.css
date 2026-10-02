@@ -1,0 +1,42 @@
+.table {
+    border: 1px solid white;
+    background-color: gray;
+    border-spacing: 20px;
+}
+
+td {
+    padding: 0;
+}
+
+.rectangle-white,
+.rectangle-black,
+.rectangle-green {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0 5px 0 black;
+}
+
+.rectangle-white {
+    position: relative;
+    background-color: rgba(243, 243, 243);
+}
+
+.rectangle-green {
+    position: relative;
+    background-color: rgba(185, 255, 102);
+}
+
+.rectangle-black {
+    position: relative;
+    background-color: rgba(25, 26, 35);
+}
+
+.photo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
