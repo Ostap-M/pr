@@ -2,6 +2,9 @@
     border: 1px solid white;
     background-color: gray;
     border-spacing: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 td {
@@ -21,6 +24,56 @@ td {
     position: relative;
     background-color: rgba(243, 243, 243);
 }
+.rectangle-white p,
+.rectangle-green p,
+.rectangle-black p {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    margin: 0;
+}
+.rectangle-white p1,
+.rectangle-green p1{
+    font-size: 12px;
+    color: black;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    margin: 0;
+}
+.rectangle-black p1{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    margin: 0;
+}
+
+.rectangle-white p span,
+.rectangle-black p span{
+    display: block;
+    width: fit-content;
+    background-color: rgba(185, 255, 102);
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+.rectangle-green p span{
+    display: block;
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+.rectangle-black p span1{
+    display: block;
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+
 
 .rectangle-green {
     position: relative;
@@ -39,4 +92,47 @@ td {
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
+}
+.arrow-icon-white,
+.arrow-icon-green{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 20px;         
+    height: 20px;         
+    border-radius: 50%;   
+    
+    background-color: black; 
+    color: rgba(185, 255, 102);         
+    
+    font-size: 20px;      
+    font-weight: bold;    
+
+    position: absolute;
+    left: 20px;
+    bottom: 17px;
+
+}
+
+.arrow-icon-black{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 20px;         
+    height: 20px;         
+    border-radius: 50%;   
+    
+    background-color: #ffffff; 
+    color: #000000;            
+    
+    font-size: 20px;      
+    font-weight: bold;   
+
+
+    position: absolute;
+    left: 20px;
+    bottom: 17px;
+
 }
